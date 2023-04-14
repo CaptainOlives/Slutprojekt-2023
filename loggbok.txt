@@ -15,3 +15,7 @@ Projektplanen är färdig och nästa lektion ska jag börja med en skiss på hem
 31/3 - 2023
 
 Projektplanen är inlämnad och jag har börjat på en skiss via hemsidan Figma. Jag har också valt färger. 
+
+14/4 -2023
+
+Den grafiska manualen är nästan klar. Den ska slutföras nästa lektion och därefter ska jag börja koda hemsidan.
