@@ -19,3 +19,7 @@ Projektplanen är inlämnad och jag har börjat på en skiss via hemsidan Figma.
 14/4 -2023
 
 Den grafiska manualen är nästan klar. Den ska slutföras nästa lektion och därefter ska jag börja koda hemsidan.
+
+18/4 - 2023
+
+Gjort klart den grafiska manualen och på torsdag ska jag börja med hemsidan. 
