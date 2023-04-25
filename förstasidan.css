@@ -1,5 +1,6 @@
 body{
     background-color: #D9D9D9;
+   
 
 }
 
@@ -8,6 +9,7 @@ header{
     font-family: Baloo;
     text-align: center;
     background-color:brown;
+    
 
 }
 
@@ -26,13 +28,35 @@ header{
     background-color:  #609966; 
     text-align: center;
     padding: 20px;
+  
+}
 
+.grid-item2{
+
+    
 }
 
 nav{
-    background-color: chartreuse;
-}   
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+   
+}
 
 footer{
     background-color: cyan  ;
+}
+
+.navbar{
+    text-decoration-color:  #609966;    
+    text-decoration: none;
+    margin: 20px;
+    
+
 }
