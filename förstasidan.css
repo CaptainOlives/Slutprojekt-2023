@@ -1,6 +1,7 @@
 body{
     background-color: #D9D9D9;
-   
+    margin:0;
+    padding: 0;
 
 }
 
@@ -8,7 +9,7 @@ header{
     font-size: xx-large;
     font-family: Baloo;
     text-align: center;
-    background-color:brown;
+   
     
 
 }
@@ -16,11 +17,9 @@ header{
 
  .grid-container {
     display: grid;
-    height: 400px;
-    align-content: start;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: blue; 
+  
+  
+ 
 
   }
 
@@ -31,14 +30,23 @@ header{
   
 }
 
+.grid-item1{
+float:left;
+    
+
+}
+
 .grid-item2{
+text-align: center;
 
     
 }
 
+.grid-item3{
+float: right;
+}
 nav{
     background-color: white;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
