@@ -31,3 +31,7 @@ Gjort klart menyn och ska fortsätta bygga vidre på layout nästa gång.
 28/4 - 2023
 
 Layouten tar mer tid än väntat så kommer fortsätta med den även nästa gång.
+
+5/5 - 2023
+
+Började med en av de andra sidorna eftersom det strulade med koden på den jag arbetade med förra gången. Snart halvvägs med projketet.
