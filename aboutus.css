@@ -1,0 +1,27 @@
+body{
+    background-color: #D9D9D9;
+    margin:0;
+    padding: 0;
+}
+
+
+
+nav{
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+   
+}
+
+.navbar{
+    text-decoration-color:  #609966;    
+    text-decoration: none;
+    margin: 20px;
+    width: auto;
+
+}
