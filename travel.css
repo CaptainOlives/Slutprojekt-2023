@@ -6,9 +6,9 @@ body{
 
 .grid-container{
     grid-template-areas: 'nav nav'
-                            'header'
+                            'header header header'
                             'section section section'
-                            'footer footer';
+                            'footer footer footer';
 
 }
 
@@ -21,6 +21,7 @@ h1{
 
 .container-text{
     margin: 5px;
+    display: flex;
 
 }
 
@@ -44,11 +45,16 @@ nav{
 
 }
 
+section{
+    grid-area: section;
+    display: flex;
+    
+}
 
 
 img{
-    height: 330px;  
-    width: 110px;
+    height: 640px;  
+    width: 960px;
     border-radius: 8px;
     margin: 10px;
 }
@@ -56,8 +62,8 @@ img{
 p{
     margin:10px;
     grid-area: section;
-    display: flex;
 }
+    
 
 
 footer{
@@ -66,6 +72,8 @@ footer{
     width:100%;
     bottom: 0;
     grid-area: footer;
+    margin: auto;
+    
     
    }
 
