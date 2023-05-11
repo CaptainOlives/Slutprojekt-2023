@@ -4,6 +4,26 @@ body{
     padding: 0;
 }
 
+.grid-container{
+    grid-template-areas: 'nav nav'
+                            'header'
+                            'section section section'
+                            'footer footer';
+
+}
+
+h1{
+    display: flex;
+    font-size: xx-large;
+    margin: 50px;
+    font-family: 'Luci'Lucida'
+}
+
+.container-text{
+    margin: 5px;
+
+}
+
 nav{
     background-color: white;
     top: 0;
@@ -24,12 +44,31 @@ nav{
 
 }
 
+
+
 img{
-    height: 400px;
-    width:250px;
+    height: 330px;  
+    width: 110px;
     border-radius: 8px;
     margin: 10px;
 }
+
+p{
+    margin:10px;
+    grid-area: section;
+    display: flex;
+}
+
+
+footer{
+    background-color: #609966;
+    position: static;
+    width:100%;
+    bottom: 0;
+    grid-area: footer;
+    
+   }
+
 
 
 
