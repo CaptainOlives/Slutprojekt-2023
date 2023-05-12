@@ -65,14 +65,31 @@ p{
 }
     
 
+.footertext{
+    text-align: center;
+    margin: 10px;
+    font-family: serif;
+    align-items: center;
+    padding: 2px;
 
+    
+}
+
+.textemail{
+    margin:5px;
+    font-family: Arial;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
 footer{
     background-color: #609966;
     position: static;
     width:100%;
-    bottom: 0;
+    bottom: 0;  
     grid-area: footer;
-    margin: auto;
+    
     
     
    }

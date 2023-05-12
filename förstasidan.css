@@ -68,7 +68,24 @@ nav{
 }
 
 footer{
-    background-color: cyan  ;
+    background-color: #609966  ;
+    align-items: center;
+    margin: 10px;
+}
+
+.footertext{
+    text-align: center;
+    margin: 10px;
+    font-family: Arial;
+    
+}
+
+.textemail{
+    margin:5px;
+    font-family: Arial;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar{
