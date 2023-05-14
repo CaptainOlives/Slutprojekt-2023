@@ -39,22 +39,23 @@ img{
     border-radius: 8px;
 }
 
-.grid-item1{
+.col{
     display: flex;
-
+    margin: 10px;
+    grid-area: section;
 
 
 }
 
-.text1{
+.row{
     display: flex;
     grid-area: section;
     margin: 10px;
+    padding: 10px;
 }
 
 .text2{
     margin: 10px;
-  
     grid-area: section;
 }
 
@@ -64,16 +65,7 @@ img{
     grid-area: section;
 }
 
-.grid-item2{
-    text-align: center;
-    display: flex;
-    
-}
 
-.grid-item3{
-    display: flex;
-
-}
 nav{
     background-color: white;
     top: 0;
