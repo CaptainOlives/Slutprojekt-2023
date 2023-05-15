@@ -1,5 +1,5 @@
 body{
-    background-color: #D9D9D9;
+    background-color: #42f587;
     margin:0;
     padding: 0;
     width:100vw;
@@ -7,8 +7,9 @@ body{
 
 header{
     font-size: xx-large;
-    font-family: Baloo;
+    font-family:'Gill Sans';
     text-align: center;
+    font-style: italic;
    
     
 
@@ -43,6 +44,7 @@ img{
     display: flex;
     margin: 10px;
     grid-area: section;
+    font-size: x-large;
 
 
 }
@@ -81,17 +83,32 @@ nav{
 footer{
     background-color: #609966  ;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
     grid-area: footer;
     display: flex;
 }
 
+.rubrik{
+    text-align: center;
+}
+
+.rubrik1{
+    text-align: center;
+    margin: 20px;
+    
+}
 
 
 .navbar{
     text-decoration-color:  #609966;    
     text-decoration: none;
     margin: 20px;
-    
+    overflow: hidden;
 
 }
+
+@media screen and (max-width: 600px) {}
+    .navbar{
+      float: none;
+      width: 100%;
+    }
