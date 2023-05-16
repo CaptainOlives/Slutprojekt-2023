@@ -1,27 +1,155 @@
+Oliver Johannesson
+09:16
+
 body{
-    background-color: #D9D9D9;
-    margin:0;
-    padding: 0;
+
+    background-color: #42f587;
+
+    margin:0;
+
+    padding: 0;
+
 }
+
+
+
+
+.grid-container{
+
+    grid-template-areas: 'nav nav nav'
+
+                            'header'
+
+                            'section section'
+
+                            'footer footer footer';
+
+}
+
+
+
+
+header{
+
+    font-size: xx-large;
+
+    font-family:'Gill Sans';
+
+    text-align: center;
+
+    font-style: italic;
+
+}
+
+.rubrik1{
+
+
+
+
+
+}
+
+
+
+
+img{
+
+    height: 400px;
+
+    width:800px;
+
+    border-radius: 8px;
+
+}
+
+
+
+
+section{
+
+    grid-area: section;
+
+    background-color: #808000;
+
+}
+
+
+
+
+.col{
+
+    display: flex;
+
+    margin: 15px;
+
+    grid-area: section;
+
+    font-size: larger;
+
+}
+
+
+
+
+.row{
+
+    display: flex;
+
+    grid-area: section;
+
+    margin
+
+}
+
 
 
 
 nav{
-    background-color: white;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 30px;
-   
+
+    background-color: white;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 30px;
+
+   
+
 }
 
+
+
+
 .navbar{
-    text-decoration-color:  #609966;    
-    text-decoration: none;
-    margin: 20px;
-    width: auto;
+
+    text-decoration-color:  #609966;    
+
+    text-decoration: none;
+
+    margin: 20px;
+
+    width: auto;
+
+
+
+
+}
+
+
+footer{
+
+ grid-area: footer;
+
+
+
 
 }
