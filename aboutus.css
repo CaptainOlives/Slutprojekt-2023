@@ -1,13 +1,8 @@
-Oliver Johannesson
-09:16
 
 body{
-
-    background-color: #42f587;
-
-    margin:0;
-
-    padding: 0;
+ background-color: #42f587;
+ margin:0;
+ padding: 0;
 
 }
 
@@ -15,14 +10,10 @@ body{
 
 
 .grid-container{
-
-    grid-template-areas: 'nav nav nav'
-
-                            'header'
-
-                            'section section'
-
-                            'footer footer footer';
+    grid-template-areas: 'nav nav nav'
+                            'header'
+                        'section section'
+                            'footer';
 
 }
 
@@ -31,34 +22,30 @@ body{
 
 header{
 
-    font-size: xx-large;
-
-    font-family:'Gill Sans';
-
-    text-align: center;
-
-    font-style: italic;
-
+ font-size: xx-large;
+ font-family:'Gill Sans';
+ text-align: center;
+ font-style: italic;
 }
 
 .rubrik1{
-
-
+ margin: 20px;
 
 
 
 }
 
+.rubrik2{
+ margin: 20px;
 
+
+}
 
 
 img{
-
-    height: 400px;
-
-    width:800px;
-
-    border-radius: 8px;
+ height: 400px;
+ width:800px;
+ border-radius: 8px;
 
 }
 
@@ -66,10 +53,9 @@ img{
 
 
 section{
-
-    grid-area: section;
-
-    background-color: #808000;
+ grid-area: section;
+ background-color: #808000;
+ padding: 20px;
 
 }
 
@@ -78,13 +64,10 @@ section{
 
 .col{
 
-    display: flex;
-
-    margin: 15px;
-
-    grid-area: section;
-
-    font-size: larger;
+ display: flex; 
+ margin: 15px;
+ grid-area: section;
+ font-size: larger;
 
 }
 
@@ -93,11 +76,9 @@ section{
 
 .row{
 
-    display: flex;
-
-    grid-area: section;
-
-    margin
+ display: flex;
+ grid-area: section;
+ margin:10px;
 
 }
 
@@ -106,23 +87,14 @@ section{
 
 nav{
 
-    background-color: white;
-
-    top: 0;
-
-    left: 0;
-
-    right: 0;
-
-    height: 50px;
-
-    display: flex;
-
-    align-items: center;
-
-    padding: 30px;
-
-   
+ background-color: white;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ padding: 30px;
 
 }
 
@@ -130,26 +102,21 @@ nav{
 
 
 .navbar{
-
-    text-decoration-color:  #609966;    
-
-    text-decoration: none;
-
-    margin: 20px;
-
-    width: auto;
-
-
+text-decoration-color:#609966; 
+text-decoration: none;
+margin: 20px;
+width: auto;
 
 
 }
 
 
 footer{
-
  grid-area: footer;
-
-
-
-
+ background-color: #609966  ;
+ align-items: center;
+ margin: 20px;
+ grid-area: footer;
+ display: flex;
+ padding: 10px;
 }
