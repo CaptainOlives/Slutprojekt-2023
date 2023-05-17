@@ -30,6 +30,7 @@ header{
 
 .rubrik1{
  margin: 20px;
+ font-size: larger;
 
 
 
@@ -37,19 +38,23 @@ header{
 
 .rubrik2{
  margin: 20px;
-
+ font-size: larger;
 
 }
 
 
 img{
- height: 400px;
+ height: 500px;
  width:800px;
  border-radius: 8px;
 
 }
 
-
+p{
+    font-size: large;
+    font-family: Cambria;
+    grid-area: section;
+}
 
 
 section{
@@ -119,4 +124,17 @@ footer{
  grid-area: footer;
  display: flex;
  padding: 10px;
+}
+
+button{
+    background-color: #4248f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px;
+    border-radius: 5px;
 }

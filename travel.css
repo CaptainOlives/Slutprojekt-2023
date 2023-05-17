@@ -62,6 +62,9 @@ img{
 p{
     margin:10px;
     grid-area: section;
+    font-size: large;
+    font-family: Georgia;
+
 }
     
 
