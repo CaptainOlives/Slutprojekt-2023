@@ -7,7 +7,7 @@ body{
 
 header{
     font-size: xx-large;
-    font-family:'Gill Sans';
+    font-family:'Georgia';
     text-align: center;
     font-style: italic;
    
@@ -67,6 +67,11 @@ img{
     grid-area: section;
 }
 
+p{
+    font-size: large;
+    font-family: Cambria;
+}
+
 
 nav{
     background-color: white;
@@ -86,6 +91,7 @@ footer{
     margin: 20px;
     grid-area: footer;
     display: flex;
+    font-size: larger;
 }
 
 .rubrik{

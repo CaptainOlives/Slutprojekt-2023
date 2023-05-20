@@ -5,7 +5,7 @@ body{
 }
 
 .grid-container{
-    grid-template-areas: 'nav nav'
+    grid-template-areas:    'nav nav nav'
                             'header header header'
                             'section section section'
                             'footer footer footer';
@@ -16,7 +16,8 @@ h1{
     display: flex;
     font-size: xx-large;
     margin: 50px;
-    font-family: 'Luci'Lucida'
+    font-family: Georgia;
+
 }
 
 .container-text{

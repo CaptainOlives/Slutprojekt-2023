@@ -1,0 +1,28 @@
+body{
+    background-color: #42f587;
+
+}
+
+
+
+.mb-3{
+    align-items: center;
+    margin: 25px;
+    
+
+}
+
+h1{
+    font-size: xx-large;
+    font-family:'Georgia';
+    text-align: center;
+    margin: 25px;
+}
+
+button{
+    margin: 15px;
+    background-color: lightblue;
+    border-radius: 5px;
+
+
+}

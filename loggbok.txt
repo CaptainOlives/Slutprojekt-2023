@@ -16,6 +16,8 @@ Projektplanen är färdig och nästa lektion ska jag börja med en skiss på hem
 
 Projektplanen är inlämnad och jag har börjat på en skiss via hemsidan Figma. Jag har också valt färger. 
 
+OBSERVERA! INOM DETTA TIDSPANN SKREVS DET I LOGGBOKEN, DOCK HAR JAG HAFT PROBLEM MED GITHUB SÅ DET HAR INTE SPARATS PÅ RÄTT KONTO
+
 14/4 -2023
 
 Den grafiska manualen är nästan klar. Den ska slutföras nästa lektion och därefter ska jag börja koda hemsidan.
@@ -55,3 +57,7 @@ Nästan färdig med alla sidor och därefter ska jag lägga till detaljer som å
 17/5 - 2023
 
 Alla sidor är i stort sett färdiga. Det återstår lite finslipning och eventuella tillägg.
+
+20/5 - 2023
+
+Ett formulär har lagts till för att fylla ut ytterligare. Hemsidorna är helt färdiga!

@@ -1,6 +1,6 @@
 
 body{
- background-color: #42f587;
+background-color: #42f587;  
  margin:0;
  padding: 0;
 
@@ -59,7 +59,7 @@ p{
 
 section{
  grid-area: section;
- background-color: #808000;
+ background-color:  #42f587;  
  padding: 20px;
 
 }

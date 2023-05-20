@@ -34,7 +34,7 @@ nav{
 
 h1{
     font-size: xx-large;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-family: Georgia;
     text-align: center;
     margin: 50px;
 }
@@ -71,4 +71,6 @@ footer{
  width:100%;
  bottom: 0;
  grid-area: footer;
+ display: flex;
+ padding: 10px;
 }
