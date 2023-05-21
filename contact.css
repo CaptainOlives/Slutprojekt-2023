@@ -13,7 +13,7 @@ body{
 }       
 
 nav{
-    background-color: white;
+    background-color: #FFFF;
     top: 0;
     left: 0;
     right: 0;
@@ -60,7 +60,7 @@ img{
 p{
     margin:10px;
     font-size: large;
-    font-family: Cambria;
+    font-family: 'Georgia';
     
     
 }
